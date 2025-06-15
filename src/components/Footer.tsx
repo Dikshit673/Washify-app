@@ -101,7 +101,7 @@ const Footer = memo(() => {
                 &copy; {new Date().getFullYear()} Washify. All rights reserved.
               </p>
             </div>
-            <div className='*:text-prime-200 flex items-center gap-2 *:size-5 *:shrink-0 *:cursor-pointer *:stroke-current *:stroke-1'>
+            <div className='*:*:text-prime-200 flex items-center gap-2 *:*:size-5 *:*:shrink-0 *:*:cursor-pointer *:*:stroke-current *:*:stroke-1'>
               <Link to='#'>
                 <FaTwitter />
               </Link>

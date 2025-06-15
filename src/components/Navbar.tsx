@@ -3,7 +3,7 @@ import { FaBars, FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa6';
 import { LuClock, LuMail, LuPhone } from 'react-icons/lu';
 import { IconType } from 'react-icons';
 
-import Washify from '@/assets/icons/Washify';
+import BrandIcon from '@/assets/icons/Washify';
 import { cn } from '@/lib/utils';
 import { Button, Link } from './ui';
 
@@ -36,7 +36,7 @@ const Nav1 = memo(() => {
       <div className='mx-auto w-9/10'>
         <div className='flex items-center justify-between gap-2'>
           <h4 className='text-prime-200 text-3xl font-semibold capitalize'>
-            Washify
+            GoWashify
           </h4>
           <div className='flex w-fit items-center justify-between gap-2 py-4 lg:gap-6'>
             <NavCard
@@ -87,7 +87,7 @@ const Nav2 = memo(() => {
         <div className='mx-auto w-9/10'>
           <div className='relative flex items-center justify-between gap-4 py-2'>
             <div className='p-1'>
-              <Washify className='text-prime-200 hover:text-prime-950' />
+              <BrandIcon className='text-prime-200 hover:text-prime-950' />
             </div>
             {/* sm hidden md visible */}
             <div className='hidden md:block'>

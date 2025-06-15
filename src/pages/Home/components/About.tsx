@@ -7,7 +7,7 @@ const About = memo(() => {
   return (
     <section className='py-8' id='about'>
       <div className='mx-auto w-9/10'>
-        <Heading heading1='About' heading2='washify ' />
+        <Heading heading1='About' heading2='GoWashify ' />
         <div className='my-8 grid grid-cols-1 gap-4 md:grid-cols-2'>
           <div className='mt-[5%] flex items-center justify-center'>
             <img

@@ -33,7 +33,7 @@ const Footer = memo(() => {
         <div className='mx-auto w-9/10'>
           <div className='grid grid-cols-1 gap-4 *:mb-4 md:grid-cols-2 lg:grid-cols-4'>
             <div className='order-1'>
-              <FooterHeading title='why washify?' />
+              <FooterHeading title='why GoWashify?' />
               <p className='text-base'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
                 officia laudantium quas sequi minus accusantium
@@ -98,7 +98,8 @@ const Footer = memo(() => {
           <div className='flex items-center justify-between'>
             <div>
               <p className='text-base'>
-                &copy; {new Date().getFullYear()} Washify. All rights reserved.
+                &copy; {new Date().getFullYear()} GoWashify. All rights
+                reserved.
               </p>
             </div>
             <div className='*:*:text-prime-200 flex items-center gap-2 *:*:size-5 *:*:shrink-0 *:*:cursor-pointer *:*:stroke-current *:*:stroke-1'>

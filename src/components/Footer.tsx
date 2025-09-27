@@ -86,9 +86,8 @@ const Footer = memo(() => {
               <ul>
                 <li className='flex items-center gap-2'>
                   <FaEnvelopeOpenText className='size-6 shrink-0' />
-                  <span className='text-base'>
-                    Sign up with your name and email to get updates fresh
-                    updates.
+                  <span className='text-sm'>
+                    Sign up with your email to get fresh updates.
                   </span>
                 </li>
               </ul>
@@ -102,7 +101,7 @@ const Footer = memo(() => {
                 reserved.
               </p>
             </div>
-            <div className='*:*:text-prime-200 flex items-center gap-2 *:*:size-5 *:*:shrink-0 *:*:cursor-pointer *:*:stroke-current *:*:stroke-1'>
+            <div className='*:*:text-prime-200 flex items-center gap-4 *:*:size-5 *:*:shrink-0 *:*:cursor-pointer *:*:stroke-current *:*:stroke-1'>
               <Link to='#'>
                 <FaTwitter />
               </Link>

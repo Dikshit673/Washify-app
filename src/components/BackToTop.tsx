@@ -25,7 +25,7 @@ const BackToTop = () => {
     <>
       <div
         className={cn(
-          'bg-prime-100 fixed right-5 bottom-5 z-20 flex size-10 items-center justify-center rounded-md p-2 text-white transition-opacity duration-300 ease-in',
+          '!bg-prime-100 fixed right-5 bottom-5 z-20 flex size-10 items-center justify-center rounded-md p-2 text-white transition-opacity duration-300 ease-in',
           { 'opacity-100': goToTop, 'opacity-0': !goToTop }
         )}
         onClick={() => {

@@ -9,6 +9,8 @@ import Plans from './components/Plans';
 import Services from './components/Services';
 import Testimonials from './components/Testimonials';
 import Location from './components/Location';
+import BackToTop from '@/components/BackToTop';
+import SmoothScroll from '@/components/SmoothScroll';
 
 const Home = () => {
   return (
@@ -24,8 +26,11 @@ const Home = () => {
         <Gallery />
         <Location />
         {/* <NewsLetter /> */}
-      </main>
 
+        {/* smooth scroll and back to top */}
+        <BackToTop />
+        <SmoothScroll />
+      </main>
       <Footer />
     </>
   );

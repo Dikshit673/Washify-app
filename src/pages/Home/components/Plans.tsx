@@ -14,9 +14,10 @@ const Plans = memo(() => {
           {plansArr.map((plan) => {
             const { id, title, price, currency, features } = plan;
             return (
+              //
               <div
                 key={id}
-                className='hover:b hover:border-second-200 bg-prime-50 flex flex-col items-center justify-center gap-4 rounded-lg border-2 border-transparent px-4 py-8 transition-all duration-150 ease-in hover:-translate-y-2 hover:shadow-2xl'
+                className='hover:border-second-200 bg-prime-50 flex flex-col items-center justify-center gap-4 rounded-lg border-1 border-gray-200 px-4 py-8 transition-all duration-150 ease-in hover:-translate-y-2 hover:shadow-2xl'
               >
                 <h3 className='text-prime-200 text-3xl font-normal'>{title}</h3>
                 <h2 className='text-prime-950 text-5xl font-medium'>
